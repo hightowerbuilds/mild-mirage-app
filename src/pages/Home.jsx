@@ -2,7 +2,9 @@
 export default function Home() {
   return (
     <div>
-        Home Page
+      <h1>
+        The Mild Mirage
+      </h1>
     </div>
   )
 }
