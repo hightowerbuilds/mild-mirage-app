@@ -5,6 +5,7 @@ export default function Home() {
       <h1>
         The Mild Mirage
       </h1>
+      <p>This is the home page</p>
     </div>
   )
 }
