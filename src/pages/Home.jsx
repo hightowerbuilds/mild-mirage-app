@@ -1,11 +1,19 @@
+import styled from "styled-components"
+
+const H1 = styled.h1`
+  font-size: 60px;
+  font-weight: 600;
+  font-family: monospace;
+`
+
 
 export default function Home() {
   return (
     <div>
-      <h1>
+      <H1>
         The Mild Mirage
-      </h1>
-      <p>This is the home page</p>
+      </H1>
+      <p>This is the (scratch) home page</p>
     </div>
   )
 }
