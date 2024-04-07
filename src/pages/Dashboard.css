@@ -1,0 +1,17 @@
+.dashboardPageContainer {
+    display: flex;
+}
+
+.navBarTopDashboard {
+    height: 20vh;
+    width: 7%;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboardHeading {
+    position: absolute;
+    left: 45%;
+}

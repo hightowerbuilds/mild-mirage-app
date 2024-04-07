@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { NavLink } from "react-router-dom"
 
 const H1 = styled.h1`
   font-size: 60px;
@@ -14,6 +15,8 @@ export default function Home() {
         The Mild Mirage
       </H1>
       <p>This is the (scratch) home page</p>
+
+      <NavLink to='/dashboard'>Dashboard</NavLink>
     </div>
   )
 }
