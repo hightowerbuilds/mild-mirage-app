@@ -8,6 +8,11 @@ import Settings from './pages/Settings'
 import Users from './pages/Users'
 import Login from './pages/Login'
 import Account from './pages/Account'
+import { QueryClient } from '@tanstack/react-query'
+
+
+const queryClient = new QueryClient({})
+
 
 export default function App() {
   return (
